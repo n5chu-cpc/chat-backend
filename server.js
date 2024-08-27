@@ -1,4 +1,4 @@
-// server.js
+// websocket server
 const WebSocket = require('ws');
 const server = new WebSocket.Server({ port: 8080 });
 
